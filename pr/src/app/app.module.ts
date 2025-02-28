@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { CartComponent } from './cart/cart.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

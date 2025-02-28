@@ -1,0 +1,23 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(104, 104, 104);
+}
+
+.cart h1 {
+    color: rgb(78, 175, 78);
+    font-size: 18px;
+}
+
+.cart h1 span {
+    margin-left: 5px;
+    color: rgb(248, 100, 100);
+    text-decoration: line-through;
+    font-size: 16px;
+}
